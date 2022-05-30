@@ -1,0 +1,151 @@
+body {
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+article {
+    width: 90%;
+    padding: 4% 5%;
+}
+
+.first_name2,
+.first_name {
+    text-align: left;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.first_name {
+    background-color: rgb(128, 127, 127);
+}
+
+.first_name2 {
+    background-color: rgb(143, 159, 204);
+}
+
+.first_name2 div,
+.first_name div {
+    display: inline-block;
+    height: 200px;
+}
+
+.first_name2 img,
+.first_name img {
+    display: inline-block;
+    width: 30%;
+    margin-left: 10px;
+    margin-right: 6%;
+}
+
+.first_name2 img {
+    float: left;
+}
+
+.first_name img {
+    float: right;
+}
+
+.first_name2 div a,
+.first_name div a {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 20px;
+    border: 2px solid rgb(57, 56, 56);
+    border-radius: 2px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.first_name2 div a:hover,
+.first_name div a:hover {
+    border-color: #fff;
+    background-color: #fff;
+    color: rgb(57, 56, 56);
+}
+
+.first_name2 div p,
+.first_name div p {
+    padding-bottom: 20px;
+}
+
+.gallary .big_div {
+    border: 2px solid rgb(81, 81, 81);
+    margin-bottom: 30px;
+    padding: 15px 0px;
+}
+
+.gallary div div img{
+    width: 100%;
+}
+
+.gallary div div {
+    display: inline-block;
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    vertical-align: middle;
+    transition: 0.4s;
+}
+
+.gallary div div p {
+    margin: 0px;
+    position: relative;
+    top: -45px;
+    margin-left: 15px;
+    opacity: 0;
+    color: #fff;
+}
+
+.gallary div .small_img:hover {
+    width: 50%;
+}
+
+.gallary div div:hover p {
+    opacity: 1;
+}
+
+.gallary a {
+    text-decoration: none;
+    color: rgb(57, 56, 56);
+    padding: 15px 20px;
+    border: 2px solid rgb(57, 56, 56);
+    border-radius: 2px;
+    margin-left: 15px;
+    transition: 0.5s;
+}
+
+.gallary a:hover {
+    border-color: rgb(57, 56, 56);
+    background-color: rgb(57, 56, 56);
+    color: #fff;
+}
+
+
+@media (max-width: 1200px) and (min-width: 900px){
+    .gallary div div {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .first_name img {
+        width: 80%;
+        margin: 20px 10%;
+    }
+
+    .first_name2 img {
+        width: 80%;
+        margin: 20px 10%;
+    }
+    
+    .gallary div div {
+        width: 70%;
+    }
+}
